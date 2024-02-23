@@ -1,30 +1,32 @@
-# React + TypeScript + Vite
+# PickSary
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Overview
+`PickSary` is an opensource project aimed at providing a seamless experience for users to discover and download high-quality, royality-free images, musiques, videos about Madagascar for their creative projects.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Features
+* #### Search functionality:
+    Easily find images, musiques, video based on keywords
+* #### Content Preview:
+    Preview content before downloading to ensure they meet your requirements
+* #### Download Options:
+    Choose from various resolutions and formats to suit your project needs
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## Contributing
+We welcome contributions to enhance `PickSary`. Follow this guidelines:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+* Fork the repository and create new branch
+* Make changes and submit a pull request.
+* Provide detailed information about the changes made
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## Issues
+If you encounter any bugs or have suggestions, please open an issue on our [GitHub Issues]() page.
+
+## License
+PickSary is licensed under the [MIT License](https://github.com/picksary/picksary-ui/blob/dev/LICENSE).
+
+## Acknowledgments
+Feel free to explore, contribute, and enjoy the world of free and stunning images with PickSary.
