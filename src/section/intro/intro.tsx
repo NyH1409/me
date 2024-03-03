@@ -8,7 +8,7 @@ export const IntroSection : FC = ()=>{
     return (
         <div>
             <NavBar />
-            <div className="bg-gray-300 container flex items-center justify-between py-24 px-28">
+            <div className="container flex items-center justify-between py-24 px-28" id="intro">
                 <div>
                     <h1 className="font-bold text-4xl">Ny Hasina Marolahy VAGNO</h1>
                     <p>Software and AI Developer</p>

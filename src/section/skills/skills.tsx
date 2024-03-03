@@ -14,9 +14,6 @@ export const Skills : FC = ()=>{
     return(
         <div id="skills">
          <div className="h-60 container flex gap-2 justify-between items-center">
-            <div className="m-auto text-center">
-                <h1 className="font-bold text-2xl">Programming Skills</h1>
-            </div>
             <div className="m-auto text-center" style={{ flexBasis: "25%" }}>
                 <div>Languages</div>
                 <br />
@@ -35,6 +32,9 @@ export const Skills : FC = ()=>{
                         <img className="w-12" src={postgres} alt="postgres" />
                    </div>
                 </div>
+            </div>
+            <div className="my-2 items-center">
+               <div className="h-40 bg-gray-200" style={{ width:"1px" }}></div>
             </div>
             <div className="m-auto text-center" style={{ flexBasis: "25%" }}>
                 <div>Librairies and Framework</div>
@@ -55,12 +55,15 @@ export const Skills : FC = ()=>{
                    </div>
                 </div>
             </div>
-            <div className="m-auto text-center">
+            <div className="my-2 items-center">
+               <div className="h-40 bg-gray-200" style={{ width:"1px" }}></div>
+            </div>
+            <div className="m-auto text-center" style={{ flexBasis: "20%" }}>
                 <div>Tools</div>
                 <br />
                 <br />
                 <div className="flex justify-between">
-                   <div><img src={aws} alt="" className="w-12" /></div>
+                   <div><img src={aws} alt="" className="w-14" /></div>
                    <div><img src={azurefunc} alt="" className="w-12" /></div>
                 </div>
             </div>
