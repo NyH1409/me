@@ -7,13 +7,13 @@ export const NavBar : FC = () => {
 
     return(
         <div>
-            <div className="flex justify-between py-3 px-5 items-center">
+            <div className="flex justify-between py-3 px-5 items-center z-20 fixed w-full">
                 <div>
                     <h1 className="font-bold text-blue-500">VAGNO</h1>
                 </div>
                 <div className="flex justify-between text-xs" style={{ flexBasis: "40%" }}>
                     <div><a href="#">Home</a></div>
-                    <div><a href="#portefolio">Portefolio</a></div>
+                    <div><a href="#skills">Skills</a></div>
                     <div><a href="#contacts">Contacts</a></div>
                 </div>
                 <div className="text-center flex items-center justify-between">
