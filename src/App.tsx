@@ -1,12 +1,14 @@
 import './App.css'
+import { IntroSection } from '@/section/intro'
+
+
 
 function App() {
 
   return (
-    <div className='text-center'>
-        Welcome to Picksary!
-        Stay tunned, features are comming soon!
-    </div>
+    <>
+      <IntroSection />
+    </>
   )
 }
 

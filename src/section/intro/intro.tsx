@@ -1,9 +1,9 @@
 import { NavBar } from "@/components/common/menu";
 import { FC } from "react";
 
-export const Home : FC = ()=>{
+export const IntroSection : FC = ()=>{
     return (
-        <div className="w-screen h-screen">
+        <div>
             <NavBar />
         </div>
     )
