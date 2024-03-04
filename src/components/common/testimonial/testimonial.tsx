@@ -3,7 +3,7 @@ import client from "@/assets/friends.jpg"
 
 export const Testimonial : FC = ()=>{
     return(
-        <div id="skills" className="container my-12">
+        <div id="skills" className="container my-12 px-24">
           <div className="m-auto text-center w-xl my-4">
                <h1 className="text-center text-2xl font-bold">They trust me</h1>
                <p className="text-xs text-gray-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita ullam illo eius tenetur odit.</p>

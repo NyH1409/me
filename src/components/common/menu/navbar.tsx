@@ -27,8 +27,10 @@ export const NavBar : FC = () => {
                     <img className="w-32" src={logo} alt="" />
                 </div>
                 <div id="nav-bar" className="flex justify-between text-sm" style={{ flexBasis: "40%" }}>
-                    <div><a href="#">Home</a></div>
+                    <div><a href="/"><span></span>Home</a></div>
                     <div><a href="#skills">Skills</a></div>
+                    <div><a href="#portefolio">Portefolio</a></div>
+                    <div><a href="/blog">Blog</a></div>
                     <div><a href="#footer">Contacts</a></div>
                 </div>
                 <div className="text-center flex items-center justify-between">

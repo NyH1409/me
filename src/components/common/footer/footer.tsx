@@ -3,7 +3,7 @@ import { FC } from "react";
 
 export const Footer: FC = ()=>{
     return(
-        <div id="footer">
+        <div id="footer" className="absolute z-24 b-0 w-full">
             <div className="flex my-1">
                 <div className="bg-gray-200 p-20 text-justufy text-xs" style={{ flexBasis: "50%"}}>
                     <h1 className="font-bold text-2xl">Get a website that will make a lasting impression.</h1>
