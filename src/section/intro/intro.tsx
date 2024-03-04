@@ -3,15 +3,25 @@ import { Button } from "@/components/ui/button";
 import { DownloadIcon } from "lucide-react";
 import { FC } from "react";
 import profile from "@/assets/vector-profile.jpg"
+import { Typewriter} from "react-simple-typewriter";
+
 
 export const IntroSection : FC = ()=>{
     return (
         <div>
             <NavBar />
-            <div className="container flex items-center justify-between py-24 px-28" id="intro">
-                <div>
+            <div className="container flex items-center justify-between px-28 py-20" id="intro">
+                <div className="wave">
                     <h1 className="font-bold text-4xl">Ny Hasina Marolahy VAGNO</h1>
-                    <p>Software and AI Developer</p>
+                    <p>I'm a <Typewriter
+                                words={['Software Developer', 'Data Developer']}
+                                loop={false}
+                                cursor
+                                cursorStyle='|'
+                                typeSpeed={100}
+                                deleteSpeed={50}
+                                delaySpeed={1000}
+                            /></p>
                     <br />
                     <p className="text-xs text-gray-500">SpringBoot | React.js | AWS | Artificial Intelligence</p>
                     <p className="text-xs text-gray-500">2 years in IT Departement, trust me to design, develop and implement features in your web application</p>
@@ -22,7 +32,7 @@ export const IntroSection : FC = ()=>{
                         Resume
                     </Button>
                 </div>
-                <div className="w-60">
+                <div className="w-96">
                     <img className="w-full" src={profile} alt="profile picture" />
                 </div>
             </div>
