@@ -2,7 +2,7 @@ import { NavBar } from "@/components/common/menu";
 import { Button } from "@/components/ui/button";
 import { DownloadIcon } from "lucide-react";
 import { FC } from "react";
-import profile from "@/assets/profile.jpeg"
+import profile from "@/assets/vector-profile.jpg"
 
 export const IntroSection : FC = ()=>{
     return (
