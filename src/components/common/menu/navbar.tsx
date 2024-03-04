@@ -32,7 +32,7 @@ export const NavBar : FC = () => {
                     <div><a href="#contacts">Contacts</a></div>
                 </div>
                 <div className="text-center flex items-center justify-between">
-                    <Button className="text-xs bg-blue-500 rounded-[8px] hover:bg-blue-700">
+                    <Button className="text-xs bg-blue-400 rounded-[8px] hover:bg-blue-700">
                         <span className="mx-2"><SendHorizonalIcon width="20" /></span>
                         Email
                     </Button>
