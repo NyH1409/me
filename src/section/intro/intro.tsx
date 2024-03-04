@@ -8,7 +8,7 @@ import { Typewriter} from "react-simple-typewriter";
 
 export const IntroSection : FC = ()=>{
     return (
-        <div>
+        <div className="bg-gray-200">
             <NavBar />
             <div className="container flex items-center justify-between px-28 py-20" id="intro">
                 <div className="wave">

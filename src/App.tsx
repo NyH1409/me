@@ -1,8 +1,8 @@
 import './App.css'
 import { IntroSection } from '@/section/intro'
 import { Skills } from '@/section/skills'
-import { Basics } from '@/section/basics'
 import { Footer } from '@/section/footer'
+import { About } from '@/section/about'
 
 
 
@@ -11,8 +11,8 @@ function App() {
   return (
     <>
       <IntroSection />
+      <About />
       <Skills />
-      <Basics />
       <Footer />
     </>
   )

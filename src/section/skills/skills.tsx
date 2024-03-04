@@ -12,10 +12,10 @@ import azurefunc from "@/assets/azure.png"
 
 export const Skills : FC = ()=>{
     return(
-        <div id="skills">
+        <div id="skills" className="my-12">
          <div className="h-60 container flex gap-2 justify-between items-center">
             <div className="m-auto text-center" style={{ flexBasis: "25%" }}>
-                <div>Languages</div>
+                <div className="font-bold">Languages</div>
                 <br />
                 <br />
                 <div className="flex justify-between items-center">
@@ -37,7 +37,7 @@ export const Skills : FC = ()=>{
                <div className="h-40 bg-gray-200" style={{ width:"1px" }}></div>
             </div>
             <div className="m-auto text-center" style={{ flexBasis: "25%" }}>
-                <div>Librairies and Framework</div>
+                <div className="font-bold">Librairies and Framework</div>
                 <br />
                 <br />
                 <div className="flex justify-between">
@@ -59,7 +59,7 @@ export const Skills : FC = ()=>{
                <div className="h-40 bg-gray-200" style={{ width:"1px" }}></div>
             </div>
             <div className="m-auto text-center" style={{ flexBasis: "20%" }}>
-                <div>Tools</div>
+                <div className="font-bold">Tools</div>
                 <br />
                 <br />
                 <div className="flex justify-between">
