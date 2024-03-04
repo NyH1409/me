@@ -13,9 +13,13 @@ import azurefunc from "@/assets/azure.png"
 export const Skills : FC = ()=>{
     return(
         <div id="skills" className="my-12">
+          <div className="m-auto text-center w-96">
+               <h1 className="text-center text-2xl font-bold">Programming Skills</h1>
+               <p className="text-xs text-gray-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita ullam illo eius tenetur odit.</p>
+          </div>
          <div className="h-60 container flex gap-2 justify-between items-center">
             <div className="m-auto text-center" style={{ flexBasis: "25%" }}>
-                <div className="font-bold">Languages</div>
+                <div className="font-bold text-gray-600">Languages</div>
                 <br />
                 <br />
                 <div className="flex justify-between items-center">
@@ -37,7 +41,7 @@ export const Skills : FC = ()=>{
                <div className="h-40 bg-gray-200" style={{ width:"1px" }}></div>
             </div>
             <div className="m-auto text-center" style={{ flexBasis: "25%" }}>
-                <div className="font-bold">Librairies and Framework</div>
+                <div className="font-bold text-gray-600">Librairies and Framework</div>
                 <br />
                 <br />
                 <div className="flex justify-between">
@@ -59,7 +63,7 @@ export const Skills : FC = ()=>{
                <div className="h-40 bg-gray-200" style={{ width:"1px" }}></div>
             </div>
             <div className="m-auto text-center" style={{ flexBasis: "20%" }}>
-                <div className="font-bold">Tools</div>
+                <div className="font-bold text-gray-600">Tools</div>
                 <br />
                 <br />
                 <div className="flex justify-between">
