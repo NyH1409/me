@@ -29,7 +29,7 @@ export const NavBar : FC = () => {
                 <div id="nav-bar" className="flex justify-between text-sm" style={{ flexBasis: "40%" }}>
                     <div><a href="#">Home</a></div>
                     <div><a href="#skills">Skills</a></div>
-                    <div><a href="#contacts">Contacts</a></div>
+                    <div><a href="#footer">Contacts</a></div>
                 </div>
                 <div className="text-center flex items-center justify-between">
                     <Button className="text-xs bg-blue-400 rounded-[8px] hover:bg-blue-700">

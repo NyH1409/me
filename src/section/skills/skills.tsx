@@ -13,7 +13,7 @@ import azurefunc from "@/assets/azure.png"
 export const Skills : FC = ()=>{
     return(
         <div id="skills" className="my-12">
-          <div className="m-auto text-center w-96">
+          <div className="m-auto text-center w-xl my-4">
                <h1 className="text-center text-2xl font-bold">Programming Skills</h1>
                <p className="text-xs text-gray-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita ullam illo eius tenetur odit.</p>
           </div>
