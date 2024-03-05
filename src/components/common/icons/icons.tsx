@@ -38,8 +38,8 @@ export const Icons = {
       />
     </svg>
   ),
-  gitHub: (props: IconProps) => (
-    <button
+  gitHub: () => (
+    <button 
   type="button"
   data-twe-ripple-init
   data-twe-ripple-color="light"
@@ -55,7 +55,7 @@ export const Icons = {
   </span>
 </button>
   ),
-  google: (props: IconProps) => (
+  google: () => (
     <button
   type="button"
   data-twe-ripple-init
@@ -155,7 +155,7 @@ export const Icons = {
   login: (props: IconProps) => (
     <BiLogInCircle {...props}/>
   ),
-  facebook: (props: IconProps)=>(
+  facebook: ()=>(
     <button
   type="button"
   data-twe-ripple-init
@@ -172,7 +172,7 @@ export const Icons = {
   </span>
 </button>
   ),
-  social: (props: IconProps)=>(
+  social: ()=>(
     <>
 <button
   type="button"

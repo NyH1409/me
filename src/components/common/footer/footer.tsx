@@ -14,7 +14,7 @@ export const Footer: FC = ()=>{
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci neque commodi perspiciatis magnam cumque consectetur dolore ab, sit, voluptas vero doloremque, nobis voluptate porro. Qui dolor esse molestias sequi culpa.</p>
                     <br />
                     <div className="flex justify-between w-60">
-                        <Icons.gitHub className="w-6"/>
+                        <Icons.gitHub />
                         <Icons.facebook />
                         <Icons.social />
                     </div>
