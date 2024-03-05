@@ -12,7 +12,7 @@ export const Testimonial : FC = ()=>{
             <div className="m-auto shadow-xl text-center p-10">
                 <img className="w-20 h-20 my-4 m-auto rounded-[8px]" src={client} alt="" />
                 <div className="text-xs m-auto">
-                    <p className="font-bold">Dinasoa RATSIMBA</p>
+                    <p className="font-bold">John Doe</p>
                     <br />
                     <p className="text-gray-800">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum quia doloribus quaerat repellat dolorem nesciunt totam harum amet voluptas eveniet fugiat fuga labore velit blanditiis enim, sunt ea suscipit ipsam?</p>
                 </div>
@@ -20,7 +20,7 @@ export const Testimonial : FC = ()=>{
             <div className="m-auto shadow-xl text-center p-10">
                 <img className="w-20 h-20 my-4 m-auto rounded-[8px]" src={client} alt="" />
                 <div className="text-xs m-auto">
-                    <p className="font-bold">Dinasoa RATSIMBA</p>
+                    <p className="font-bold">John Doe</p>
                     <br />
                     <p className="text-gray-800">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum quia doloribus quaerat repellat dolorem nesciunt totam harum amet voluptas eveniet fugiat fuga labore velit blanditiis enim, sunt ea suscipit ipsam?</p>
                 </div>
@@ -28,7 +28,7 @@ export const Testimonial : FC = ()=>{
             <div className="m-auto shadow-xl text-center p-10">
                 <img className="w-20 h-20 my-4 m-auto rounded-[8px]" src={client} alt="" />
                 <div className="text-xs m-auto">
-                    <p className="font-bold">Dinasoa RATSIMBA</p>
+                    <p className="font-bold">John Doe</p>
                     <br />
                     <p className="text-gray-800">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum quia doloribus quaerat repellat dolorem nesciunt totam harum amet voluptas eveniet fugiat fuga labore velit blanditiis enim, sunt ea suscipit ipsam?</p>
                 </div>

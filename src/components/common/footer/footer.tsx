@@ -1,4 +1,5 @@
 import { FC } from "react";
+import { Icons } from "../icons/icons";
 
 
 export const Footer: FC = ()=>{
@@ -11,6 +12,12 @@ export const Footer: FC = ()=>{
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, quam esse at quae odio quidem cum aut nulla nostrum, ipsa amet saepe fugiat nam labore neque alias! Aliquam, ut quae!</p>
                     <br />
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci neque commodi perspiciatis magnam cumque consectetur dolore ab, sit, voluptas vero doloremque, nobis voluptate porro. Qui dolor esse molestias sequi culpa.</p>
+                    <br />
+                    <div className="flex justify-between w-60">
+                        <Icons.gitHub className="w-6"/>
+                        <Icons.facebook />
+                        <Icons.social />
+                    </div>
                     <br />
                     <p> &copy; Copyright 2024, powered by Ny Hasina VAGNO</p>
                 </div>
