@@ -15,13 +15,11 @@ export const Skills : FC = ()=>{
         <div id="skills" className="my-12">
           <div className="m-auto text-center w-xl my-4">
                <h1 className="text-center text-2xl font-bold">Programming Skills</h1>
-               <p className="text-xs text-gray-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita ullam illo eius tenetur odit.</p>
+               <p className="text-xs text-gray-600 my-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita ullam illo eius tenetur odit.</p>
           </div>
-         <div className="h-60 container flex gap-2 justify-between items-center">
+         <div className="md:h-60 container md:flex md:gap-2 md:justify-between items-center">
             <div className="m-auto text-center" style={{ flexBasis: "25%" }}>
-                <div className="font-bold text-gray-600">Languages</div>
-                <br />
-                <br />
+                <div className="font-bold text-gray-600 mb-4">Languages</div>
                 <div className="flex justify-between items-center">
                    <div>
                         <img className="w-12" src={java} alt="java" />
@@ -37,8 +35,8 @@ export const Skills : FC = ()=>{
                    </div>
                 </div>
             </div>
-            <div className="my-2 items-center">
-               <div className="h-40 bg-gray-200" style={{ width:"1px" }}></div>
+            <div className="md:my-2 items-center">
+               <div className="md:h-40 my-12 bg-gray-200" style={{ width:"1px" }}></div>
             </div>
             <div className="m-auto text-center" style={{ flexBasis: "25%" }}>
                 <div className="font-bold text-gray-600">Librairies and Framework</div>
@@ -59,8 +57,8 @@ export const Skills : FC = ()=>{
                    </div>
                 </div>
             </div>
-            <div className="my-2 items-center">
-               <div className="h-40 bg-gray-200" style={{ width:"1px" }}></div>
+            <div className="md:my-2 items-center">
+               <div className="md:h-40 my-12 bg-gray-200" style={{ width:"1px" }}></div>
             </div>
             <div className="m-auto text-center" style={{ flexBasis: "20%" }}>
                 <div className="font-bold text-gray-600">Tools</div>
