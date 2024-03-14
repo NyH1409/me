@@ -10,9 +10,9 @@ export const IntroSection : FC = ()=>{
     return (
         <div className="bg-gray-200">
             <NavBar />
-            <div className="container flex items-center justify-between px-28 py-20" id="intro">
+            <div className="container md:flex items-center justify-between md:px-28 md:py-20 py-40" id="intro">
                 <div className="wave">
-                    <h1 className="font-bold text-4xl">Ny Hasina Marolahy VAGNO</h1>
+                    <h1 className="font-bold md:text-4xl text-2xl">Ny Hasina Marolahy VAGNO</h1>
                     <p>I'm a <Typewriter
                                 words={['Software Developer', 'Data Developer']}
                                 loop={false}
@@ -27,12 +27,12 @@ export const IntroSection : FC = ()=>{
                     <p className="text-xs text-gray-500">2 years in IT Departement, trust me to design, develop and implement features in your web application</p>
                     <Button className="text-xs bg-yellow-500 rounded-[8px] hover:bg-yellow-600 my-6">
                         <span className="mx-2">
-                            <DownloadIcon width="20"/>
+                            <DownloadIcon width="15"/>
                         </span>
                         Resume
                     </Button>
                 </div>
-                <div className="w-96">
+                <div className="md:block hidden w-96">
                     <img className="w-full" src={profile} alt="profile picture" />
                 </div>
             </div>
