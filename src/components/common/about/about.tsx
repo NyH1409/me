@@ -5,10 +5,10 @@ import { Button } from "@/components/ui/button";
 
 export const About : FC = ()=>{
     return(
-        <div className="px-32 py-12">
-            <div className="container flex justify-between items-center">
+        <div className="md:px-32 py-12">
+            <div className="container md:flex justify-between items-center">
                 <div className="m-auto" style={{ flexBasis: "50%"}}>
-                    <img className="w-96" src={profile} alt="" />
+                    <img className="md:w-96 w-full" src={profile} alt="" />
                 </div>
                 <div className="text-justify text-sm" style={{ flexBasis: "50%"}}>
                     <h1 className="font-bold text-2xl py-6">About Me</h1>
@@ -19,7 +19,7 @@ export const About : FC = ()=>{
                         <br />
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos numquam mollitia vitae, voluptas distinctio reprehenderit aliquam dolore. Totam voluptatibus ullam sunt, assumenda voluptas iste. Tempora a dignissimos sit assumenda nostrum.</p>
                     </div>
-                    <Button className="my-4 bg-yellow-500 rounded-[8px] hover:bg-yellow-700">Contact me</Button>
+                    <Button className="my-4 bg-yellow-500 text-xs rounded-[8px] hover:bg-yellow-700">Contact me</Button>
                 </div>
             </div>
         </div>

@@ -10,7 +10,7 @@ export const IntroSection : FC = ()=>{
     return (
         <div className="bg-gray-200">
             <NavBar />
-            <div className="container md:flex items-center justify-between md:px-28 md:py-20 py-40" id="intro">
+            <div className="container md:flex items-center justify-between md:px-28 md:py-20 py-60" id="intro">
                 <div className="wave">
                     <h1 className="font-bold md:text-4xl text-2xl">Ny Hasina Marolahy VAGNO</h1>
                     <p>I'm a <Typewriter
