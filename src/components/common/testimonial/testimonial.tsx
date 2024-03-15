@@ -8,7 +8,7 @@ export const Testimonial : FC = ()=>{
                <h1 className="text-center text-2xl font-bold">They trust me</h1>
                <p className="text-xs text-gray-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita ullam illo eius tenetur odit.</p>
           </div>
-          <div className="flex gap-6">
+          <div className="md:flex gap-6">
             <div className="m-auto shadow-xl text-center p-10">
                 <img className="w-20 h-20 my-4 m-auto rounded-[8px]" src={client} alt="" />
                 <div className="text-xs m-auto">
